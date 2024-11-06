@@ -1,11 +1,14 @@
-import React from 'react'
+import { ButtonContainer } from '../../styles/modules/_button';
+import PropTypes from 'prop-types';
 
-import { ButtonContainer } from './styles';
-
-const Button = ({title,variant = "primary", onClick}) => {
+export const Button = ({ title, variant = "primary", onClick }) => {
   return (
     <ButtonContainer variant={variant} onClick={onClick}>{title}</ButtonContainer>
   )
 }
 
-export { Button }
+Button.propTypes = {
+  title: PropTypes.string.isRequired,
+  variant: PropTypes.string,
+  onClick: PropTypes.func.isRequired,
+};
