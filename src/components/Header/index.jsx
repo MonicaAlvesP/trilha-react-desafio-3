@@ -6,6 +6,8 @@ import { Button } from '../Button';
 import { Container, Wrapper, BuscarInputContainer, Input, Row, Menu, MenuRight, UserPicture } from '../../styles/layouts/_header';
 
 export const Header = ({ autenticado }) => {
+
+
   return (
     <Wrapper>
       <Container>
@@ -27,8 +29,8 @@ export const Header = ({ autenticado }) => {
           ) : (
             <>
               <MenuRight href="/">Home</MenuRight>
-              <Button title="Entrar" />
-              <Button title="Cadastrar" />
+              <Button title="Entrar" variant="outline" />
+              <Button title="Cadastrar" variant="purple" />
             </>)}
         </Row>
       </Container>

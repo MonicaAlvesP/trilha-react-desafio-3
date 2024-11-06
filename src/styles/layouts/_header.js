@@ -9,7 +9,6 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
 `
 
 export const Row = styled.div`
@@ -49,13 +48,17 @@ export const Menu = styled.a`
 `
 
 export const MenuRight = styled.a`
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: 12px;
-    line-height: 25px;
-    color: #FFFFFF;
-    margin-right: 12px;
-    text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+  &:hover {
+    color: #7F28B5;
+  }
 `
 
 export const UserPicture = styled.img`
