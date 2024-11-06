@@ -40,7 +40,6 @@ export const ButtonContainer = styled.button`
   ${({ variant }) => variant === "outline" && css`
     background: transparent;
     border: 1px solid #FFFFFF;
-    border-radius: 5px;
     margin-right: 12px;
     
     &:hover {
@@ -52,7 +51,6 @@ export const ButtonContainer = styled.button`
   ${({ variant }) => variant === "purple" && css`
     background: #6A0DAD;
     color: #FFFFFF;
-    border-radius: 5px;
     border: none;
 
     &:hover {

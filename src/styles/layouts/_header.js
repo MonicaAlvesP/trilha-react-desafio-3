@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-`
+    `
 
 export const BuscarInputContainer = styled.div`
     width: 275px;
@@ -32,7 +32,7 @@ export const BuscarInputContainer = styled.div`
     background: #2D2D37;
     border-radius: 8px;
     padding: 2px 5px;
-    margin: 0 12px;
+    margin: 20px;
 
     display:flex;
 `

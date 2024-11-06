@@ -29,8 +29,8 @@ export const Header = ({ autenticado }) => {
           ) : (
             <>
               <MenuRight href="/">Home</MenuRight>
-              <Button title="Entrar" variant="outline" />
-              <Button title="Cadastrar" variant="purple" />
+              <Button title="Entrar" variant="outline" onClick={() => window.location.href = '/login'} />
+              <Button title="Cadastrar" variant="purple" onClick={() => window.location.href = '/register'} />
             </>)}
         </Row>
       </Container>

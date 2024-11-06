@@ -4,6 +4,9 @@ export const Container = styled.div`
     display:flex;
     flex-direction: row;
     margin-bottom: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
 `
 
 export const UserPicture = styled.img`
